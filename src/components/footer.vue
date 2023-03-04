@@ -40,10 +40,10 @@
         </div>
       </div>
     </div>
+    <div class="copyright-text">
+      <p>Copyright &copy; 2023 All Rights Reserved by <a href="#">MyHome</a>.</p>
+    </div>
   </footer>
-  <div class="copyright-text">
-    <p>Copyright &copy; 2023 All Rights Reserved by <a href="#">MyHome</a>.</p>
-  </div>
 </template>
 <style scoped>
 .copyright-text {
@@ -56,7 +56,7 @@
   font-size: 15px;
   background-color: #24262b;
   bottom: 0;
-  position: absolute;
+  width: 100vw;
 }
 .copyright-text p {
   margin: 0;
@@ -65,6 +65,8 @@
 .container_footer {
   max-width: 1170px;
   margin: auto;
+  width: 100%;
+  margin-bottom: 20px;
 }
 .row {
   display: flex;
@@ -72,7 +74,12 @@
 }
 .footer {
   background-color: white;
-  padding: 70px 0;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px ;
 }
 .footer-col {
   width: 25%;
